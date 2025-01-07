@@ -1,7 +1,11 @@
-document.write("Integração realizada com sucesso!");
+let botaoSalvar = document.getElementById("botao-salvar");
 
-let elemento = document.querySelector("H1")
+botaoSalvar.addEventListener("click", () => {
+    const ul = documen.getElementById("lista-item");
+    document.createElement("li");
+    document.createElement("div");
+    document.createElement("input");
+    document.createElement("p");
 
-console.log(elemento.value)
-
-elemento.innerHTML = "Mudei o valor";
+    ul.appendChild()
+})
