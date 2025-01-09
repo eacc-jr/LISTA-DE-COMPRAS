@@ -1,6 +1,6 @@
 let botaoSalvar = document.getElementById("botao-salvar");
 
-botaoSalvar.addEventListener("click", () => {
+botaoSalvar.addEventListener("click", (event) => {
   event.preventDefault();
   const ul = document.getElementById("lista-item");
   const inputNomeItem = document.getElementById("input-item");
